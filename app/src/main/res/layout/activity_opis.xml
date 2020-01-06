@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpisActivity">
+
+    <TextView
+        android:id="@+id/textOpis"
+        android:layout_width="357dp"
+        android:layout_height="524dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:gravity="center"
+        android:text="Gra matematyczna wspomgająca naukę tabliczki mnożenia. Gracz ma do wyboru 5 poziomów trudości.
+Każde rozgrywka składa się od 10 do 50 zadań w zalezności od poziomu. Zadanie polega na wpisaniu poprawnego wyniku
+mnożenia w zakresie do 100 wyświetlonego na ekranie. Do wpisania wyniku sluży klawiatura na dole ekranu. Grcz nie
+ma możliwości poprawy wyniku. Jeśli rozwiązaniem jest liczbaa jednocyfrowa można wcisnać tylko jeden klawisz, jeśli
+dwucyfrowa dwa. Po zakończonej grze wyświetlaany jest wynik. Powodzenia!"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/powrotBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/powrotBt"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:onClick="click"
+        android:text="Powrót"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textOpis" />
+</androidx.constraintlayout.widget.ConstraintLayout>

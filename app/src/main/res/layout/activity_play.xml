@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity">
+
+    <Button
+        android:id="@+id/bt8"
+        android:onClick="click"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:text="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt9"
+        android:onClick="click"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:text="9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt5"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toEndOf="@+id/bt3" />
+
+    <Button
+        android:id="@+id/bt7"
+        android:onClick="click"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:text="7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt3"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toEndOf="@+id/bt1" />
+
+    <Button
+        android:id="@+id/bt0"
+        android:onClick="click"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toEndOf="@+id/bt4" />
+
+    <Button
+        android:id="@+id/bt6"
+        android:onClick="click"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:text="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt2"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:onClick="click"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:text="4"
+        app:layout_constraintBottom_toTopOf="@+id/bt9"
+        app:layout_constraintEnd_toStartOf="@+id/bt5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bt3" />
+
+    <Button
+        android:id="@+id/bt5"
+        android:onClick="click"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:text="5"
+        app:layout_constraintBottom_toTopOf="@+id/bt0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bt4" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:onClick="click"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:text="2"
+        app:layout_constraintBottom_toTopOf="@+id/bt7"
+        app:layout_constraintEnd_toStartOf="@+id/bt3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bt1" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:onClick="click"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@+id/bt6"
+        app:layout_constraintEnd_toStartOf="@+id/bt2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:gravity="left"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btMenu"
+        android:onClick="click"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="370dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:onClick="click"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:text="3"
+        app:layout_constraintBottom_toTopOf="@+id/bt8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textMulti"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:text="*"
+        android:textSize="90sp"
+        app:layout_constraintBottom_toTopOf="@+id/textEqualSign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textEqualSign"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:text="="
+        android:textSize="90sp"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintEnd_toStartOf="@+id/textResult"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMulti"
+        app:layout_constraintVertical_bias="0.511" />
+
+    <TextView
+        android:id="@+id/textValue1"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:text=""
+        android:gravity="center"
+        android:textSize="90sp"
+        app:layout_constraintBottom_toTopOf="@+id/textEqualSign"
+        app:layout_constraintEnd_toStartOf="@+id/textMulti"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textValue2"
+        android:layout_width="122dp"
+        android:layout_height="145dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="90sp"
+        app:layout_constraintBottom_toTopOf="@+id/textResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textMulti"
+        app:layout_constraintTop_toBottomOf="@+id/btMenu" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:text=""
+        android:gravity="center"
+        android:textSize="90sp"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textEqualSign"
+        app:layout_constraintTop_toBottomOf="@+id/textValue2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
