@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinishhActivity">
+
+    <Button
+        android:id="@+id/btEnd"
+        android:onClick="click"
+        android:layout_width="118dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="48dp"
+        android:text="Zakończ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textProcenty"
+        android:layout_width="249dp"
+        android:layout_height="120dp"
+        android:text=""
+        android:textSize="80sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/btStats"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWynik" />
+
+    <TextView
+        android:id="@+id/textPoprawne"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:text="Poprawne odpowiedzi:"
+        android:textSize="30sp"
+        android:gravity="bottom"
+        app:layout_constraintBottom_toTopOf="@+id/textOdpowiedzi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textOdpowiedzi"
+        android:layout_width="327dp"
+        android:layout_height="117dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="80sp"
+        app:layout_constraintBottom_toTopOf="@+id/textWynik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPoprawne" />
+
+    <TextView
+        android:id="@+id/textWynik"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:text="Wynik procentowy:"
+        android:textSize="30sp"
+        android:gravity="bottom"
+        app:layout_constraintBottom_toTopOf="@+id/textProcenty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textOdpowiedzi" />
+
+    <Button
+        android:id="@+id/btStats"
+        android:onClick="click"
+        android:layout_width="118dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="52dp"
+        android:text="Statystyki"
+        app:layout_constraintBottom_toTopOf="@+id/btEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

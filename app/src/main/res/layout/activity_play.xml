@@ -8,10 +8,10 @@
 
     <Button
         android:id="@+id/bt8"
-        android:onClick="click"
         android:layout_width="60dp"
         android:layout_height="80dp"
         android:layout_marginBottom="30dp"
+        android:onClick="click"
         android:text="8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,10 +20,10 @@
 
     <Button
         android:id="@+id/bt9"
-        android:onClick="click"
         android:layout_width="60dp"
         android:layout_height="80dp"
         android:layout_marginBottom="30dp"
+        android:onClick="click"
         android:text="9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/bt5"
@@ -32,10 +32,10 @@
 
     <Button
         android:id="@+id/bt7"
-        android:onClick="click"
         android:layout_width="60dp"
         android:layout_height="80dp"
         android:layout_marginBottom="30dp"
+        android:onClick="click"
         android:text="7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/bt3"
@@ -44,10 +44,10 @@
 
     <Button
         android:id="@+id/bt0"
-        android:onClick="click"
         android:layout_width="60dp"
         android:layout_height="80dp"
         android:layout_marginBottom="30dp"
+        android:onClick="click"
         android:text="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,10 +56,10 @@
 
     <Button
         android:id="@+id/bt6"
-        android:onClick="click"
         android:layout_width="60dp"
         android:layout_height="80dp"
         android:layout_marginBottom="30dp"
+        android:onClick="click"
         android:text="6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/bt2"
@@ -68,10 +68,10 @@
 
     <Button
         android:id="@+id/bt4"
-        android:onClick="click"
         android:layout_width="60dp"
         android:layout_height="80dp"
         android:layout_marginBottom="40dp"
+        android:onClick="click"
         android:text="4"
         app:layout_constraintBottom_toTopOf="@+id/bt9"
         app:layout_constraintEnd_toStartOf="@+id/bt5"
@@ -80,10 +80,10 @@
 
     <Button
         android:id="@+id/bt5"
-        android:onClick="click"
         android:layout_width="60dp"
         android:layout_height="80dp"
         android:layout_marginBottom="40dp"
+        android:onClick="click"
         android:text="5"
         app:layout_constraintBottom_toTopOf="@+id/bt0"
         app:layout_constraintEnd_toEndOf="parent"
@@ -92,10 +92,10 @@
 
     <Button
         android:id="@+id/bt2"
-        android:onClick="click"
         android:layout_width="60dp"
         android:layout_height="80dp"
         android:layout_marginBottom="40dp"
+        android:onClick="click"
         android:text="2"
         app:layout_constraintBottom_toTopOf="@+id/bt7"
         app:layout_constraintEnd_toStartOf="@+id/bt3"
@@ -104,10 +104,10 @@
 
     <Button
         android:id="@+id/bt1"
-        android:onClick="click"
         android:layout_width="60dp"
         android:layout_height="80dp"
         android:layout_marginBottom="40dp"
+        android:onClick="click"
         android:text="1"
         app:layout_constraintBottom_toTopOf="@+id/bt6"
         app:layout_constraintEnd_toStartOf="@+id/bt2"
@@ -115,26 +115,26 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textTasks"
         android:layout_width="225dp"
         android:layout_height="45dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
         android:gravity="left"
+        android:text="TextView"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btMenu"
-        android:onClick="click"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
+        android:onClick="click"
         android:text="Menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -152,10 +152,10 @@
 
     <Button
         android:id="@+id/bt3"
-        android:onClick="click"
         android:layout_width="60dp"
         android:layout_height="80dp"
         android:layout_marginBottom="40dp"
+        android:onClick="click"
         android:text="3"
         app:layout_constraintBottom_toTopOf="@+id/bt8"
         app:layout_constraintEnd_toEndOf="parent"
@@ -173,15 +173,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textTasks" />
 
     <TextView
         android:id="@+id/textEqualSign"
         android:layout_width="100dp"
         android:layout_height="150dp"
-        android:gravity="center"
         android:text="="
         android:textSize="90sp"
+        android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toStartOf="@+id/textResult"
         app:layout_constraintHorizontal_bias="0.5"
@@ -193,19 +193,19 @@
         android:id="@+id/textValue1"
         android:layout_width="120dp"
         android:layout_height="150dp"
-        android:text=""
         android:gravity="center"
+        android:text=""
         android:textSize="90sp"
         app:layout_constraintBottom_toTopOf="@+id/textEqualSign"
         app:layout_constraintEnd_toStartOf="@+id/textMulti"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textTasks" />
 
     <TextView
         android:id="@+id/textValue2"
         android:layout_width="122dp"
-        android:layout_height="145dp"
+        android:layout_height="150dp"
         android:gravity="center"
         android:text=""
         android:textSize="90sp"
@@ -217,15 +217,28 @@
 
     <TextView
         android:id="@+id/textResult"
-        android:layout_width="140dp"
+        android:layout_width="169dp"
         android:layout_height="150dp"
-        android:text=""
         android:gravity="center"
+        android:text=""
         android:textSize="90sp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textEqualSign"
         app:layout_constraintTop_toBottomOf="@+id/textValue2" />
+
+    <TextView
+        android:id="@+id/textAnswer"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="25sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toEndOf="@+id/progressBar"
+        app:layout_constraintTop_toTopOf="@+id/progressBar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
